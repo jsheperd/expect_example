@@ -5,7 +5,8 @@ Including an interactive python application for testing the expect script.
 
 #Usage
 git clone
+
 ./client.expect
 
 #Problem
-It doeesn't work :(
+It doesn't work :(
