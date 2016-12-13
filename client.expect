@@ -1,0 +1,14 @@
+#!/usr/bin/expect -f
+
+set timeout 3
+puts "example to interact"
+spawn python app.py
+
+expect {
+  "name: " { send "jani\r"; }
+  "age: "  { send "12\r"; }
+  "quit: " { send "q\r"; }
+}
+
+puts "bye"
+
