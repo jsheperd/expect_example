@@ -7,6 +7,3 @@ Including an interactive python application for testing the expect script.
 git clone
 
 ./client.expect
-
-#Problem
-It doesn't work :(
